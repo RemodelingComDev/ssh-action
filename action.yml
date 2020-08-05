@@ -23,7 +23,7 @@ inputs:
     description: 'the allowed cipher algorithms. If unspecified then a sensible'
   timeout:
     description: 'timeout for ssh to host'
-    default: "30s"
+    default: "120s"
   command_timeout:
     description: 'timeout for ssh command'
     default: "10m"
